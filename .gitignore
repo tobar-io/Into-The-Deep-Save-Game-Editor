@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Backups
+*.bak.*.json
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Betriebssystem
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test-Saves
+test_saves/
+*.test.json

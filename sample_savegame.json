@@ -1,0 +1,238 @@
+{
+  "saveSlotName": "Beispiel Speicherstand",
+  "lastSaveTimestamp": "10/04/2025 14:30:22",
+  "currency": 15000,
+  "rescuedDwarvesCount": 8,
+  "lastSceneID": "Level_Cave_03",
+  "crewStates": [
+    {
+      "runtimeName": "Warrior Bob",
+      "templateID": "Char_Warrior_01",
+      "currentLevel": 5,
+      "currentXP": 2500,
+      "currentHP": 85.0,
+      "maxHP": 100.0,
+      "currentActionPoints": 3,
+      "maxActionPoints": 4,
+      "movementRange": 6,
+      "isDead": false,
+      "godMode": false,
+      "isSelected": true,
+      "isStunned": false,
+      "equippedWeaponID": "Weapon_Sword_Steel",
+      "equippedWeaponState": {
+        "weaponSoTemplateID": "Weapon_Sword_Steel",
+        "currentAmmo": 1,
+        "maxAmmo": 1,
+        "isReloading": false,
+        "currentCooldown": 0,
+        "appliedModifierIDs": [],
+        "isEquipped": true,
+        "isDrawn": false,
+        "isBlocked": false,
+        "damageMultiplier": 1.2,
+        "firingRateMultiplier": 1.0,
+        "spreadMultiplier": 1.0,
+        "bulletsPerShotBonus": 0,
+        "penetrationBonus": 2,
+        "durability": 95.0,
+        "maxDurability": 100.0
+      },
+      "equippedItemIDs": [
+        "Item_Armor_Leather",
+        "Item_Helmet_Iron",
+        "Item_Boots_Heavy"
+      ]
+    },
+    {
+      "runtimeName": "Mage Alice",
+      "templateID": "Char_Mage_01",
+      "currentLevel": 4,
+      "currentXP": 1800,
+      "currentHP": 60.0,
+      "maxHP": 75.0,
+      "currentActionPoints": 5,
+      "maxActionPoints": 6,
+      "movementRange": 4,
+      "isDead": false,
+      "godMode": false,
+      "isSelected": false,
+      "isStunned": false,
+      "equippedWeaponID": "Weapon_Staff_Magic",
+      "equippedWeaponState": {
+        "weaponSoTemplateID": "Weapon_Staff_Magic",
+        "currentAmmo": 25,
+        "maxAmmo": 30,
+        "isReloading": false,
+        "currentCooldown": 1,
+        "appliedModifierIDs": ["Modifier_FireDamage"],
+        "isEquipped": true,
+        "isDrawn": true,
+        "isBlocked": false,
+        "damageMultiplier": 1.5,
+        "firingRateMultiplier": 0.8,
+        "spreadMultiplier": 0.5,
+        "bulletsPerShotBonus": 1,
+        "penetrationBonus": 0,
+        "durability": 88.0,
+        "maxDurability": 100.0
+      },
+      "equippedItemIDs": [
+        "Item_Robe_Mage",
+        "Item_Ring_Mana"
+      ]
+    }
+  ],
+  "activeSquadMemberIDs": [
+    "Char_Warrior_01",
+    "Char_Mage_01"
+  ],
+  "inventoryItemIDs": [
+    "Item_Potion_Health",
+    "Item_Potion_Mana",
+    "Item_Key_Gold",
+    "Item_Scroll_Fireball",
+    "Item_Gem_Ruby"
+  ],
+  "inventoryHatIDs": [
+    "Hat_Wizard",
+    "Hat_Crown_Gold",
+    "Hat_Beret_Red"
+  ],
+  "inventoryWeaponStates": [
+    {
+      "weaponSoTemplateID": "Weapon_Bow_Elven",
+      "currentAmmo": 45,
+      "maxAmmo": 50,
+      "isReloading": false,
+      "currentCooldown": 0,
+      "appliedModifierIDs": [],
+      "isEquipped": false,
+      "isDrawn": false,
+      "isBlocked": false,
+      "damageMultiplier": 1.0,
+      "firingRateMultiplier": 1.3,
+      "spreadMultiplier": 0.7,
+      "bulletsPerShotBonus": 0,
+      "penetrationBonus": 1,
+      "durability": 92.0,
+      "maxDurability": 100.0
+    },
+    {
+      "weaponSoTemplateID": "Weapon_Axe_Battle",
+      "currentAmmo": 1,
+      "maxAmmo": 1,
+      "isReloading": false,
+      "currentCooldown": 2,
+      "appliedModifierIDs": ["Modifier_Bloodthirst"],
+      "isEquipped": false,
+      "isDrawn": false,
+      "isBlocked": false,
+      "damageMultiplier": 1.8,
+      "firingRateMultiplier": 0.6,
+      "spreadMultiplier": 1.0,
+      "bulletsPerShotBonus": 0,
+      "penetrationBonus": 3,
+      "durability": 78.0,
+      "maxDurability": 100.0
+    }
+  ],
+  "questStates": [
+    {
+      "questID": "Quest_FindTreasure",
+      "questStatus": 1,
+      "progressText": "Suche nach dem verlorenen Schatz",
+      "completionPercentage": 60.0,
+      "questGoalStates": [
+        {
+          "goalID": "Goal_EnterCave",
+          "goalStatus": 2,
+          "description": "Betrete die mysteriöse Höhle"
+        },
+        {
+          "goalID": "Goal_DefeatBoss",
+          "goalStatus": 1,
+          "description": "Besiege den Höhlenwächter"
+        }
+      ]
+    },
+    {
+      "questID": "Quest_RescuePeople",
+      "questStatus": 2,
+      "progressText": "Rette die Gefangenen",
+      "completionPercentage": 100.0,
+      "questGoalStates": [
+        {
+          "goalID": "Goal_FindPrisoners",
+          "goalStatus": 2,
+          "description": "Finde alle Gefangenen"
+        }
+      ]
+    }
+  ],
+  "unlockedLevelIDs": [
+    "Level_Tutorial",
+    "Level_Forest_01",
+    "Level_Forest_02",
+    "Level_Cave_01",
+    "Level_Cave_02",
+    "Level_Cave_03"
+  ],
+  "completedLevelIDs": [
+    "Level_Tutorial",
+    "Level_Forest_01",
+    "Level_Forest_02"
+  ],
+  "levelStates": [
+    {
+      "levelID": "Level_Tutorial",
+      "levelStatus": 4,
+      "starsEarned": 3,
+      "bestTime": 120.5,
+      "survivalRate": 100.0,
+      "enemiesDefeated": 5,
+      "secretsFound": 2,
+      "lastPlayedTimestamp": "10/01/2025 10:15:30",
+      "missionResults": {
+        "completed": true,
+        "score": 9500,
+        "bonus": 500
+      }
+    },
+    {
+      "levelID": "Level_Forest_01",
+      "levelStatus": 4,
+      "starsEarned": 2,
+      "bestTime": 340.2,
+      "survivalRate": 85.0,
+      "enemiesDefeated": 12,
+      "secretsFound": 1,
+      "lastPlayedTimestamp": "10/02/2025 16:22:10",
+      "missionResults": {
+        "completed": true,
+        "score": 7800,
+        "bonus": 200
+      }
+    },
+    {
+      "levelID": "Level_Cave_03",
+      "levelStatus": 2,
+      "starsEarned": 0,
+      "bestTime": 0.0,
+      "survivalRate": 0.0,
+      "enemiesDefeated": 0,
+      "secretsFound": 0,
+      "lastPlayedTimestamp": "",
+      "missionResults": {
+        "completed": false,
+        "score": 0,
+        "bonus": 0
+      }
+    }
+  ],
+  "bannerConfig": {
+    "bannerIconID": "Icon_Dragon",
+    "bannerBackgroundID": "Background_Forest"
+  },
+  "id": 42
+}
